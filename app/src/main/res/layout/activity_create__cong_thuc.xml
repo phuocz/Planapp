@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.Create_CongThuc">
+
+    <EditText
+        android:id="@+id/txtnguyenlieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nguyên liệu"
+        android:textSize="18dp"
+        />
+    <EditText
+        android:id="@+id/txtcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nội dung công thức"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ảnh sản phẩm"
+        android:textStyle="bold"
+        ></TextView>
+    <ImageView
+        android:id="@+id/imagend"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/broken"
+        android:textSize="18dp"
+        />
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_border"
+        android:text="đăng"
+        />
+
+
+</LinearLayout>
+</ScrollView>

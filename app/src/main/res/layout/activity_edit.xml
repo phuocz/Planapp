@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.EditActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="tên"
+            android:textSize="18dp"
+            />
+        <EditText
+            android:id="@+id/txtmota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="mô tả"
+            android:textSize="18dp"
+            />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            >
+
+        </Spinner>
+        <ImageView
+            android:id="@+id/imagect"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="số bước thực hiện"
+            android:textSize="18dp"
+            android:background="@drawable/broken"
+            />
+
+        <EditText
+            android:id="@+id/txtnguyenlieu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nguyên liệu"
+            android:textSize="18dp"
+            />
+        <EditText
+            android:id="@+id/txtcontent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="nội dung"
+            android:textSize="18dp"
+            />
+        <ImageView
+            android:id="@+id/imagend"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="số bước thực hiện"
+            android:textSize="18dp"
+            android:background="@drawable/broken"
+            />
+
+        <Button
+            android:id="@+id/btnupdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="update"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
