@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="tên công thức"
+        android:textSize="18dp"
+        />
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        >
+
+    </Spinner>
+    <EditText
+        android:id="@+id/mota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:hint="mô tả"
+        />
+
+    <ImageView
+        android:id="@+id/imagev"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="số bước thực hiện"
+        android:textSize="18dp"
+        />
+    <Button
+        android:id="@+id/btnimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select image"
+        />
+    <Button
+        android:id="@+id/btnupdateimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="update image"
+        />
+
+
+</LinearLayout>
